@@ -33,15 +33,7 @@ in VS code for local development
 
 ## 📦 Deployment
 
-This website can be deployed using **GitHub Pages**, which hosts static websites directly from a GitHub repository.
-
-1. Push the website files to your GitHub repository.
-2. Open the repository's **Settings**.
-3. Navigate to **Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose the `main` branch and the `/ (root)` folder.
-6. Click **Save** and wait for the deployment to complete.
-
-Once the deployment is complete, your website will be accessible through the URL provided by GitHub Pages.
+This website is deployed using **GitHub Pages**, configured in `.github/workflows/deploy.yml`.
+On every push to the `main` branch, the workflow automatically.
 
 For more information, consult the [GitHub Pages documentation](https://docs.github.com/en/pages).
